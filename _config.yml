@@ -6,14 +6,14 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  whatever
+  whatever no agenda website
 
 # Build settings
 
 theme: minima
 
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
@@ -26,7 +26,7 @@ minima:
 
   # Generate social links in footer.
   #
-  # social_links:
+  social_links:
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
